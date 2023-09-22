@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}">
+
+    <link rel="icon" href="{{ url_for('static', path='favicon.ico') }}" type="image/x-icon">
+
+</head>
+
+<body>
+    <h1>QR Code Generator</h1>
+    <form action="/generate_qr_code" method="get">
+        <label for="data">Enter data:</label>
+        <input type="text" id="data" name="data">
+        <input type="submit" value="Generate QR Code">
+    </form>
+</body>
+
+</html>

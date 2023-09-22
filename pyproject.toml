@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qr code generator online"
+version = "0.1.0"
+description = "This project generate QR codes"
+authors = ["ALexey M"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qrcode = "^7.4.2"
+fastapi = {extras = ["all"], version = "^0.103.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

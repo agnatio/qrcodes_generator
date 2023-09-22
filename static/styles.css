@@ -1,0 +1,88 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+form,
+label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color */
+body {
+    background: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin-right: 1rem;
+
+    padding: 2rem;
+}
+
+/* Container for centering the form */
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styles */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button styles */
+input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+
+    label,
+    input[type="text"],
+    input[type="submit"] {
+        font-size: 18px;
+    }
+}
