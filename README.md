@@ -29,9 +29,9 @@ This FastAPI application provides a simple API to generate QR codes. It serves a
     cd yourrepository
     ```
 
-3. Install the required packages:
+3. Install the project dependencies using Poetry:
     ```bash
-    pip install -r requirements.txt
+    poetry install
     ```
 
 ## Usage
